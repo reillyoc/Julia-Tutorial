@@ -29,7 +29,7 @@
 ## Arrays in Julia
 
 # An array is a sequence of values (any type of value)
-[10, 20, 35, 40] # sequence of integers
+[10, 20, 30, 40] # sequence of integers
 ["crunchy frog", "ram bladder", "lark vomit"] # sequence of strings
 ["spam", 2.0, 5, [10, 20]] # sequence of strings, floating-point number, integer, and another array
 []
@@ -98,15 +98,15 @@ end
 
 square_cube(5)
 
-function inception(len)
-    array1 = zeros(len)
-    for i in 1:len
+function myello(x)
+    array1 = zeros(x)
+    for i in 1:x
         array1[i] = square_cube(i)
     end
     return array1
 end
 
-inception(4)
+myello(4)
 
 # "Special function" - let block
 # within this let block, everything stays within the let block (like a function) unless you explicitly tell it to return something. We will use let blocks for creating figures later
@@ -120,3 +120,13 @@ end
 
 # Exercise 2
 # Write a function that takes any string (e.g "christmas") and then prints this string the number of times you specify. (Both the string and the number are variables in the function)
+
+function chrimmus(x)
+    array1 = zeros(x)
+    for i in 1:x
+        println("Merry Chrysler")
+    end
+    return array1
+end
+
+chrimmus(6)
