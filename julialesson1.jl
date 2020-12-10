@@ -29,7 +29,7 @@
 ## Arrays in Julia
 
 # An array is a sequence of values (any type of value)
-[10, 20, 30, 40] # sequence of integers
+[10, 20, 35, 40] # sequence of integers
 ["crunchy frog", "ram bladder", "lark vomit"] # sequence of strings
 ["spam", 2.0, 5, [10, 20]] # sequence of strings, floating-point number, integer, and another array
 []
